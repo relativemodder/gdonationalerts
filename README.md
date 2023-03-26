@@ -6,8 +6,11 @@ Using with mod [relativemodder/notifications-in-gd-mod](https://github.com/relat
 
 ## Install dependencies:
 
-```pip install donationalerts```
+```pip install DonationAlertsAPI```
+
 ```pip install pymem```
+
+```pip install pywin32```
 
 ## Configure Alerts:
 
