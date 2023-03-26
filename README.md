@@ -1,5 +1,9 @@
 # gdonationalerts
 
+
+Using with mod [relativemodder/notifications-in-gd-mod](https://github.com/relativemodder/notifications-in-gd-mod)
+
+
 ## Install dependencies:
 
 ```pip install donationalerts```
