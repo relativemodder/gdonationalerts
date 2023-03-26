@@ -3,6 +3,7 @@ from notification import Notification
 from config import ALERTS_TOKEN, PIPE_NAME
 from donationalerts import Alert
 from donationalerts.donationalerts import Event
+from transliterator import transliterate, trim
 
 alert = Alert(ALERTS_TOKEN)
 
@@ -18,9 +19,10 @@ pipe.send_string(Notification("GDonationAlerts started!", "Waiting for new donat
 
 @alert.event()
 def new_donation(event: Event):
+	print(transliterate(event.username))
 	pipe.send_string(
 		Notification(
             "New donation!", 
-            f"{event.username} donated you {event.amount_formatted} {event.currency}!"
+            f"{trim(transliterate(event.username), 20)} donated you {event.amount_formatted} {event.currency}!"
 	    ).as_gd_format()
 	)

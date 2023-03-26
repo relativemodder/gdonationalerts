@@ -4,6 +4,7 @@
         "Megahack",
         "Pymem",
         "pywintypes",
-        "Rdug"
+        "Rdug",
+        "translit"
     ]
 }

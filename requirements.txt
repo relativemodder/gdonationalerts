@@ -1,0 +1,4 @@
+emoji
+DonationAlertsAPI
+pymem
+pywin32

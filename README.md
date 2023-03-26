@@ -1,16 +1,15 @@
 # gdonationalerts
 
 
+**FOR UKRAINIAN USERS:** use VPN or something either you will get an error
+
+
 Using with mod [relativemodder/notifications-in-gd-mod](https://github.com/relativemodder/notifications-in-gd-mod)
 
 
 ## Install dependencies:
 
-```pip install DonationAlertsAPI```
-
-```pip install pymem```
-
-```pip install pywin32```
+```pip install -r "requirements.txt"```
 
 ## Configure Alerts:
 
